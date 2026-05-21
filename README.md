@@ -44,20 +44,17 @@ Each sample corresponds to a **single performer sequence**, even when the origin
 skeleton-dance-tas/
 ├── README.md
 ├── LICENSE
+├── Data_processing/
+│   ├── Extraction.py
+│   ├── SORT.py
+│   └── Normalize.py
 ├── metadata/
-│   ├── class_labels.csv
-│   ├── sequence_info.csv
-│   └── split_info.csv
+│   ├── class_labels.txt
 ├── annotations/
 │   ├── train/
-│   ├── val/
 │   └── test/
 ├── skeletons/
 │   ├── body25/
 │   └── coco18/
 ├── videos/
 │   ├── source_links.md
-│   └── samples/
-└── docs/
-    ├── dataset_protocol.md
-    └── citation.md
